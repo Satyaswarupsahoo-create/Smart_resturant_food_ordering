@@ -1,0 +1,51 @@
+body.dark{
+
+background:#121212;
+color:white;
+
+}
+
+body.dark .food-card,
+body.dark .review-card,
+body.dark .why-grid div{
+
+background:#222;
+color:white;
+
+}
+
+body.dark .feedback input,
+body.dark .feedback select,
+body.dark .feedback textarea{
+
+background:#222;
+color:white;
+border:1px solid #444;
+
+}
+body.dark .history-card{
+
+background:#1f1f1f;
+
+color:white;
+
+}
+body.dark .report-section{
+
+background:#1f1f1f;
+
+color:white;
+
+}
+
+body.dark .report-section input,
+body.dark .report-section select,
+body.dark .report-section textarea{
+
+background:#333;
+
+color:white;
+
+border:1px solid #555;
+
+}

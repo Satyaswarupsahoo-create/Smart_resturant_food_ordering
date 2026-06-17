@@ -1,0 +1,25 @@
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+gap:15px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:2rem;
+}
+
+.hero{
+height:70vh;
+}
+
+.support-buttons{
+flex-direction:column;
+}
+
+}

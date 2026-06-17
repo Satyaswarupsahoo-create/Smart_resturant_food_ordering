@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Restaurant Menu</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="darkmode.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+<i class="fa-solid fa-utensils"></i>
+Smart Restaurant
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="menu.html">Menu</a></li>
+
+<li><a href="cart.html">Cart</a></li>
+
+<li><a href="history.html">History</a></li>
+
+<li>
+<button id="themeToggle">🌙</button>
+</li>
+
+</ul>
+
+</nav>
+
+<!-- PAGE TITLE -->
+
+<section class="menu-header">
+
+<h1>🍽 Our Menu</h1>
+
+<p>Search and Filter Your Favorite Food</p>
+
+</section>
+
+<!-- SEARCH -->
+
+<section class="search-section">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search Food...">
+
+</section>
+
+<!-- FILTER BUTTONS -->
+
+<section class="filter-section">
+
+<button class="filter-btn active" data-category="all">
+All
+</button>
+
+<button class="filter-btn" data-category="pizza">
+Pizza
+</button>
+
+<button class="filter-btn" data-category="burger">
+Burger
+</button>
+
+<button class="filter-btn" data-category="drink">
+Drinks
+</button>
+
+<button class="filter-btn" data-category="dessert">
+Dessert
+</button>
+
+</section>
+
+<!-- MENU ITEMS -->
+
+<section>
+
+<div id="menuContainer" class="food-grid">
+
+</div>
+
+</section>
+
+
+<div id="popup" class="popup">
+
+<div class="popup-content">
+
+<span id="popupMessage"></span>
+
+</div>
+
+</div>
+
+
+
+
+<script src="theme.js"></script>
+<script src="menu-data.js"></script>
+<script src="menu.js"></script>
+
+</body>
+</html>

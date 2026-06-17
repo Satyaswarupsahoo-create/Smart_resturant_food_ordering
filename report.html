@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Report Problem</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="darkmode.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+<i class="fa-solid fa-utensils"></i>
+Smart Restaurant
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="history.html">History</a></li>
+<li><a href="report.html">Report</a></li>
+
+<li>
+<button id="themeToggle">🌙</button>
+</li>
+
+</ul>
+
+</nav>
+
+<!-- REPORT FORM -->
+
+<section class="report-section">
+
+<h1>🚨 Report A Problem</h1>
+
+<p>
+Facing any issue? Let us know.
+</p>
+
+<form id="reportForm">
+
+<input
+type="text"
+id="customerName"
+placeholder="Enter Your Name"
+required>
+
+<select id="problemType" required>
+
+<option value="">
+Select Problem Type
+</option>
+
+<option>
+Order Not Delivered
+</option>
+
+<option>
+Wrong Item Received
+</option>
+
+<option>
+Payment Failed
+</option>
+
+<option>
+Food Quality Issue
+</option>
+
+<option>
+Other
+</option>
+
+</select>
+
+<textarea
+id="problemDescription"
+placeholder="Describe Your Problem..."
+required>
+</textarea>
+
+<button type="submit" class="btn">
+Submit Report
+</button>
+
+</form>
+
+</section>
+
+<!-- SUCCESS POPUP -->
+
+<div id="popup" class="success-popup">
+
+<div class="success-box">
+
+<div class="checkmark">
+✓
+</div>
+
+<h2>
+Report Submitted
+</h2>
+
+<p>
+Thank you for your feedback ❤️
+</p>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+<script src="theme.js"></script>
+<script src="report.js"></script>
+
+</body>
+</html>

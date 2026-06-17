@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shopping Cart</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="darkmode.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div id="popup" class="success-popup">
+
+    <div class="success-box">
+
+        <div class="checkmark">
+            ✓
+        </div>
+
+        <h2>Order Confirmed!</h2>
+
+        <p>
+            Your order has been placed successfully 🎉
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+<i class="fa-solid fa-utensils"></i>
+Smart Restaurant
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="menu.html">Menu</a></li>
+
+<li><a href="cart.html">Cart</a></li>
+
+<li><a href="history.html">History</a></li>
+
+<li>
+<button id="themeToggle">🌙</button>
+</li>
+
+</ul>
+
+</nav>
+
+<!-- PAGE TITLE -->
+
+<section class="menu-header">
+
+<h1>🛒 Your Cart</h1>
+
+<p>Review Your Selected Food Items</p>
+
+</section>
+
+<!-- CART ITEMS -->
+
+<section>
+
+<div id="cartContainer" class="food-grid">
+
+</div>
+
+</section>
+
+<!-- TOTAL -->
+
+<section class="cart-total">
+
+<h2 id="totalPrice">
+Total: ₹0
+</h2>
+
+<button id="placeOrderBtn" class="btn">
+Place Order
+</button>
+
+</section>
+
+
+
+
+
+
+<script src="theme.js"></script>
+<script src="cart.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

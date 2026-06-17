@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Signup - Smart Restaurant</title>
+
+<link rel="stylesheet" href="auth.css">
+<link rel="stylesheet" href="responsive.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="auth-container">
+
+    <div class="auth-card">
+
+        <h1>
+            <i class="fa-solid fa-user-plus"></i>
+            Create Account
+        </h1>
+
+        <form id="signupForm">
+
+            <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input
+                type="text"
+                id="name"
+                placeholder="Full Name"
+                required>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                required>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required>
+            </div>
+
+            <button type="submit" class="btn">
+                Create Account
+            </button>
+
+        </form>
+
+        <p>
+            Already have account?
+            <a href="login.html">
+                Login
+            </a>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="auth.js"></script>
+
+</body>
+</html>
